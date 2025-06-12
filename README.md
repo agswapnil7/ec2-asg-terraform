@@ -1,31 +1,31 @@
-## 🚀 EC2 Deployment via Terraform + Jenkins (Auto Scaling Group with user_data)
+## EC2 Deployment via Terraform + Jenkins (Auto Scaling Group with user_data)
 
 This project demonstrates how to automatically deploy an EC2 instance using Terraform through a Jenkins pipeline. The EC2 is provisioned via a Launch Template and Auto Scaling Group (ASG) and deleted automatically after testing.
 
 ---
 
-### ✅ What is being tested/proved?
+### What is being tested/proved?
 - Automating infrastructure provisioning via Jenkins
 - Terraform deployment of EC2 with ASG and user_data
 - Automated clean-up (terraform destroy)
 
 ---
 
-### 🧰 Tools & Technologies
+### Tools & Technologies
 - Terraform
 - AWS (VPC, Subnet, ASG, Launch Template, EC2)
 - Jenkins (Declarative Pipeline)
 
 ---
 
-### 📋 Success Criteria
+### Success Criteria
 - Jenkins applies Terraform successfully.
 - EC2 launches with Apache installed and a custom index page.
 - Infrastructure is cleaned up (destroyed) at the end.
 
 ---
 
-### 📦 File Structure
+### File Structure
 ```
 ├── main.tf          # Terraform code to deploy infrastructure
 ├── Jenkinsfile      # Jenkins pipeline to automate apply & destroy
@@ -35,7 +35,7 @@ This project demonstrates how to automatically deploy an EC2 instance using Terr
 
 ---
 
-### ⚙️ How to Reproduce
+### How to Reproduce
 
 #### 1. Clone this repo
 ```bash
@@ -59,13 +59,13 @@ cd <REPO_NAME>
 
 ---
 
-### 🗑️ Auto-Cleanup
+### Auto-Cleanup
 - The pipeline waits for 2 minutes and destroys the resources.
 - This helps avoid unnecessary AWS charges.
 
 ---
 
-### 📷 Jenkins Output
+### Jenkins Output
 Refer to `console_output.txt` for full output from Jenkins.
 
 ---
