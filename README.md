@@ -30,7 +30,6 @@ This project demonstrates how to automatically deploy an EC2 instance using Terr
 ├── main.tf          # Terraform code to deploy infrastructure
 ├── Jenkinsfile      # Jenkins pipeline to automate apply & destroy
 ├── README.md        # This documentation
-├── console_output.txt # Jenkins console output (attached post run)
 ```
 
 ---
