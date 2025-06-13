@@ -1,6 +1,6 @@
 ## EC2 Deployment via Terraform + Jenkins (Auto Scaling Group with user_data)
 
-This project demonstrates how to automatically deploy an EC2 instance using Terraform through a Jenkins pipeline. The EC2 is provisioned via a Launch Template and Auto Scaling Group (ASG) and deleted automatically after testing.
+This project demonstrates how to automatically deploy an EC2 instance using Terraform through a Jenkins pipeline. The EC2 is provisioned via a Launch Template and Auto Scaling Group (ASG) and deleted automatically after testing
 
 ---
 
